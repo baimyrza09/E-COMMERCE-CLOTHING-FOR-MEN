@@ -1,0 +1,277 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color:  silver
+}
+
+
+
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 968px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.card{
+  margin-top: auto;  
+  padding: 5px; 
+  float: left;
+
+}
+.card-img-top{
+  background-color: blanchedalmond;
+  border-radius: 5px;
+}
+li{
+  list-style-type: none;
+}
+.container:first-child {
+  text-align: center; 
+}
+
+.auth-form {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #949ebf;
+  border-radius: 4px;
+  text-align: right;
+}
+
+.field {
+  margin-bottom: 1rem;
+}
+
+.field:last-child {
+  margin-bottom: 0;
+}
+
+.field>input {
+  border: 0;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.field:last-child>button {
+  padding: 10px;
+  color: #fff;
+  background-color: #a37ab6;
+  border: 0;
+  border-radius: 4px;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.field:last-child>button:hover {
+  background-color: #6e3f92;
+}
+
+.field:last-child {
+  text-align: center;
+}
+
+.main-modal{
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0, .5);
+  display: none;
+}
+
+
+.inner-modal {
+  width: 500px;
+  height: 600px;
+  background-color: #949ebf;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.btn-close {
+  align-self: flex-start;
+  padding: 10px;
+  color: #fff;
+  background-color: #a37ab6;
+  border: 0;
+  border-radius: 4px;
+  transition: .3s;
+  cursor: pointer;
+}
+.btn-save{
+  padding: 10px;
+  color: #fff;
+  background-color: #a37ab6;
+  border: 0;
+  border-radius: 4px;
+  transition: .3s;
+  cursor: pointer;
+}
+.previous-btn{
+  padding: 10px;
+  color: #fff;
+  background-color: #a37ab6;
+  border: 0;
+  border-radius: 4px;
+  transition: .3s;
+  cursor: pointer;
+}
+.next-btn{
+  padding: 10px;
+  color: #fff;
+  background-color: #a37ab6;
+  border: 0;
+  border-radius: 4px;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.btn-delete{
+  padding: 4px;
+  color: #fff;
+  background-color: #a37ab6;
+  border: 0;
+  border-radius: 4px;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.btn-telephone{
+  padding: 4px;
+  color: #fff;
+  background-color: #a37ab6;
+  border: 0;
+  border-radius: 4px;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.btn-edit{
+  padding: 4px;
+  color: #fff;
+  background-color: #a37ab6;
+  border: 0;
+  border-radius: 4px;
+  transition: .3s;
+  cursor: pointer;
+}
+
+
+.title{
+  display: flex;
+}
+
+.task-input1{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid  #6e3f92;
+  border-radius: 4px;
+}
+.task-input2{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid  #6e3f92;
+  border-radius: 4px;
+}
+.task-input3{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid  #6e3f92;
+  border-radius: 4px;
+}
+.task-input4{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid  #6e3f92;
+  border-radius: 4px;
+}
+
+.search-inp{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid  #6e3f92;
+  border-radius: 4px;
+}
+.search-inp[type=text] {
+  transition: width 0.4s ease-in-out;
+}
+
+.search-inp[type=text]:focus {
+  width: 100%;
+}
+
+
+
+.edit-inp1{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid  #6e3f92;
+  border-radius: 4px;
+}
+.edit-inp2{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid  #6e3f92;
+  border-radius: 4px;
+}
+.edit-inp3{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid  #6e3f92;
+  border-radius: 4px;
+}
+.edit-inp4{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid  #6e3f92;
+  border-radius: 4px;
+}
+
+
+
+
+
+.page-footer{
+  background-color: #343a40;
+  color: #fff;
+  position: fixed ;
+  bottom: 0;
+
+}
+
+
+
+
